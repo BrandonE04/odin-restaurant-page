@@ -1,3 +1,52 @@
-body{
-    background-color: blue;
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navigation{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: #6A3717;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.navButton{
+    background-color: whitesmoke;
+    border: none;
+    width: 20vw;
+    height: 9vh;
+    margin: 1em;
+    border-radius: 20px;
+}
+.holder{
+    height: 80vh;
+    width: 100vw;
+    background-color: #e2c779;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    width: 50vw;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: .5em;
+    height: 20vh;
+    background-color: white;
+    font-size: 4em;
+    box-shadow: 3px 3px 3px grey;
+}
+.mainDescription{
+    background-color: white;
+    border: black solid 2px;
+    width: 50vw;
+    padding: .5em;
+}
+.mainDescriptionText{
+    font-size: 2em;
 }
